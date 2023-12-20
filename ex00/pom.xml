@@ -33,17 +33,18 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-
 		<!-- AspectJ -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -111,30 +112,6 @@
 		</dependency>
 
 
-		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j MySQL 
-			연결을 위한 JDBC 드라이버를 제공 -->
-		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<version>8.2.0</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok getter, 
-			setter, 생성자 등의 코드를 간소화 -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.30</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP JDBC 커넥션 풀 -->
-		<dependency>
-			<groupId>com.zaxxer</groupId>
-			<artifactId>HikariCP</artifactId>
-			<version>5.1.0</version>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 
 			oracle 연결을 위한 JDBC 드라이버를 제공 -->
 		<dependency>
@@ -161,7 +138,6 @@
 			<version>5.1.0</version>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis , MyBatis는 
 			데이터베이스와 자바 객체 간의 매핑을 처리하는 SQL 매퍼 프레임워크 -->
 		<dependency>
@@ -185,8 +161,8 @@
 			<artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
 			<version>1.16</version>
 		</dependency>
-
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
